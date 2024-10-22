@@ -71,6 +71,17 @@ def update_readme(problem_number, problem_name, difficulty, topics):
     
     print(f"README.md обновлен с задачей {problem_number}: {problem_name}.")
 
+# Функция для выполнения команд Git
+def git_push():
+    try:
+        os.system("git add .")
+        commit_message = f"Добавлена задача {datetime.now().strftime('%m.%d.%Y')}"
+        os.system(f'git commit -m "{commit_message}"')
+        os.system("git push")
+        print("Изменения успешно запушены в репозиторий!")
+    except Exception as e:
+        print(f"Ошибка при выполнении git команд: {e}")
+
 # Основная функция
 def main():
     create_or_update_readme()  # Создаем README, если его еще нет
@@ -81,6 +92,9 @@ def main():
     topics = input("Введите топики задачи (например, Arrays, Dynamic Programming): ")
     
     log_problem(problem_number, problem_name, difficulty, topics)
+
+    # Выполняем команды git для пуша изменений в репозиторий
+    git_push()
 
 if __name__ == "__main__":
     main()
