@@ -20,7 +20,8 @@ def log_problem(problem_number, problem_name, difficulty, topics):
             f.write(f"// Solution for problem {problem_number}: {problem_name}\n")
             f.write(f"// Difficulty: {difficulty}\n")
             f.write(f"// Topics: {topics}\n\n")
-            f.write("// Your solution code goes here.\n")
+            f.write("// Your solution code goes here.\n\n")
+            f.write("#include <iostream> \n #include <vector>\n #include <algorithm>\n using namespace std;\n")
         print(f"Файл '{file_name}' успешно создан в папке '{folder}'.")
     else:
         print(f"Файл '{file_name}' уже существует.")
@@ -72,10 +73,10 @@ def update_readme(problem_number, problem_name, difficulty, topics):
     print(f"README.md обновлен с задачей {problem_number}: {problem_name}.")
 
 # Функция для выполнения команд Git
-def git_push():
+def git_push(problem_number):
     try:
         os.system("git add .")
-        commit_message = f"Добавлена задача {datetime.now().strftime('%m.%d.%Y')}"
+        commit_message = f"Add tsk {problem_number} at {datetime.now().strftime('%m.%d.%Y')}"
         os.system(f'git commit -m "{commit_message}"')
         os.system("git push")
         print("Изменения успешно запушены в репозиторий!")
@@ -94,7 +95,7 @@ def main():
     log_problem(problem_number, problem_name, difficulty, topics)
 
     # Выполняем команды git для пуша изменений в репозиторий
-    git_push()
+    git_push(problem_number)
 
 if __name__ == "__main__":
     main()
