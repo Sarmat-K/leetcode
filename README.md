@@ -32,4 +32,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 328            | Odd Even Linked List                  | Medium     | Linked List                           | 10.21.2024  |
 | 2095           | Delete the Middle Node of a Linked List| Medium     | Linked List, Two Pointers             | 10.21.2024  |
 | 2130           | Max Twin Sum of a Linked List         | Medium     | Linked List, Two Pointers, Stack      | 10.22.2024  |
-| 104 | Max depth of binary Tree | Easy | Tree, Depth-First Search , Binary-First Search , Binary Tree | 10.22.2024 |
+
