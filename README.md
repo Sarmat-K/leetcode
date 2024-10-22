@@ -19,7 +19,16 @@ Each problem is saved in a folder named after the date it was solved:
 
 ## Solved Problems
 
-| Problem Number | Problem Name | Difficulty | Topics | Date Solved |
-|----------------|--------------|------------|--------|-------------|
-| 2130 | Max twin sum of a Linked list | Medium | Linked list, Two pointers, Stack | 10.22.2024 |
-| 2131 | Max twin sum of a Linked list32 | Medium | Linked list, Two pointers, Stack | 10.22.2024 |
+| Problem Number | Problem Name                          | Difficulty | Topics                                | Date Solved |
+|----------------|---------------------------------------|------------|---------------------------------------|-------------|
+| 11             | Container With Most Water             | Medium     | Arrays, Two Pointers                  | 03.12.2024  |
+| 283            | Move Zeroes                           | Easy       | Arrays, Two Pointers                  | 03.12.2024  |
+| 392            | Is Subsequence                        | Easy       | Strings, Two Pointers, Greedy         | 03.12.2024  |
+| 2485           | Find the Pivot Integer                | Easy       | Math, Prefix Sum                      | 03.12.2024  |
+| 643            | Maximum Average Subarray              | Easy       | Arrays, Sliding Window                | 03.13.2024  |
+| 930            | Binary Subarrays With Sum             | Medium     | Arrays, Prefix Sum, Hash Map          | 03.13.2024  |
+| 1679           | Max Number of K-Sum Pairs             | Medium     | Arrays, Hash Map, Two Pointers        | 03.13.2024  |
+| 206            | Reverse Linked List                   | Easy       | Linked List, Recursion                | 10.21.2024  |
+| 328            | Odd Even Linked List                  | Medium     | Linked List                           | 10.21.2024  |
+| 2095           | Delete the Middle Node of a Linked List| Medium     | Linked List, Two Pointers             | 10.21.2024  |
+| 2130           | Max Twin Sum of a Linked List         | Medium     | Linked List, Two Pointers, Stack      | 10.22.2024  |
