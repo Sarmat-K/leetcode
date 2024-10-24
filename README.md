@@ -40,3 +40,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 1 | Two sum | Easy | Array, Hash Table | 10.23.2024 |
 | 3138 | Minimum Lenght of Anagrama Concatination | Medium | Hash table, String, Concatenation | 10.24.2024 |
 | 49 | Group Anagramas | Medium | Array, hash table, String, Sorting | 10.24.2024 |
+| 347 | Top K frequent Elements | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | 10.24.2024 |

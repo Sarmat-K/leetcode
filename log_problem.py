@@ -21,7 +21,7 @@ def log_problem(problem_number, problem_name, difficulty, topics):
             f.write(f"// Difficulty: {difficulty}\n")
             f.write(f"// Topics: {topics}\n\n")
             f.write("// Your solution code goes here.\n\n")
-            f.write("#include <iostream> \n #include <vector>\n #include <algorithm>\n using namespace std;\n")
+            f.write("#include <iostream>\n#include <unordered_map>\n#include <vector>\n#include <algorithm>\nusing namespace std;\n") # добоавляю библиотеки для работы !
         print(f"Файл '{file_name}' успешно создан в папке '{folder}'.")
     else:
         print(f"Файл '{file_name}' уже существует.")
