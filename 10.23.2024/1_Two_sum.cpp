@@ -1,10 +1,18 @@
-// Solution for problem 1: Two sum
-// Difficulty: Easy
-// Topics: Array, Hash Table
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int,int> table;
+        
 
-// Your solution code goes here.
+        for(int i = 0; i < nums.size(); i++){
+            int temp = target - nums[i];
 
-#include <iostream> 
- #include <vector>
- #include <algorithm>
- using namespace std;
+            if(table.find(temp) != table.end()){
+                return {table[temp], i};
+            }
+            table[nums[i]] = i;
+        }
+
+        return{};
+    }
+};
