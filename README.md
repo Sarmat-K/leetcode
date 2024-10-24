@@ -37,3 +37,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 1448 | Count Good Nodes in Binary Tree | Medium | Binary tree, Depth-First Search, Breadth-First Search | 10.22.2024 |
 | 217 | Contains Duplicate | Easy | Array, Hash table, Sorting | 10.23.2024 |
 | 242 | Is anagrama | Easy | Hash table , string , sorting | 10.23.2024 |
+| 1 | Two sum | Easy | Array, Hash Table | 10.23.2024 |

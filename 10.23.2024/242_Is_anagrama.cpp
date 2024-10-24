@@ -1,10 +1,22 @@
-// Solution for problem 242: Is anagrama
-// Difficulty: Easy
-// Topics: Hash table , string , sorting
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if(s.size() != t.size()){
+            return false;
+        }
 
-// Your solution code goes here.
+        unordered_map<char , int> table;
 
-#include <iostream> 
- #include <vector>
- #include <algorithm>
- using namespace std;
+        for (char c : s){
+            table[c]++;
+        }
+
+        for(char c : t){
+            if(table.find(c) == table.end() || table[c] ==0){
+                return false;
+            }
+            table[c]--;
+        }
+        return true;
+    }
+};
