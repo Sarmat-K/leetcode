@@ -43,3 +43,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 347 | Top K frequent Elements | Medium | Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect | 10.24.2024 |
 | 659 | Split array in to consecutive subsequences | mideum | Array, Hash Table, Greedy, Heap (Priority Queue) | 10.25.2024 |
 | 271 | Encode and Decode string | medium | String | 10.25.2024 |
+| 238 | Product of array except self | Medium | Array, Prefix sum | 10.25.2024 |
