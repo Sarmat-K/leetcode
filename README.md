@@ -46,3 +46,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 238 | Product of array except self | Medium | Array, Prefix sum | 10.25.2024 |
 | 36  | Valid Sudoku | Medium | Array, Hash Table , Matrix | 10.26.2024 |
 | 128 | Longest Consecutive sequence | Mideum | Array, Hash table, Union Find | 10.26.2024 |
+| 26 | Remove Duplicates from Sorted Array | Easy | Arrays | 10.27.2024 |
