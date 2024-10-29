@@ -47,3 +47,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 36  | Valid Sudoku | Medium | Array, Hash Table , Matrix | 10.26.2024 |
 | 128 | Longest Consecutive sequence | Mideum | Array, Hash table, Union Find | 10.26.2024 |
 | 26 | Remove Duplicates from Sorted Array | Easy | Arrays | 10.27.2024 |
+| 27  | Remove Element | Easy | array | 10.28.2024 |
