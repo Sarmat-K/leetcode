@@ -49,3 +49,4 @@ Each problem is saved in a folder named after the date it was solved:
 | 26 | Remove Duplicates from Sorted Array | Easy | Arrays | 10.27.2024 |
 | 27  | Remove Element | Easy | array | 10.28.2024 |
 | 4  | Median of two sorted arrays | Hard | Array , Binary search, Divide and conquer  | 10.29.2024 |
+| 15 | 3Sum | Medium | array, Two Pointer, Sorting | 10.30.2024 |

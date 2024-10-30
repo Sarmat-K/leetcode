@@ -24,7 +24,7 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
         int maxX = (mid_min == 0) ? INT_MIN : nums1[mid_min - 1];
         int minX = (mid_min == min_array) ? INT_MAX : nums1[mid_min];
-
+    
         int maxY = (mid_max == 0) ? INT_MIN : nums2[mid_max - 1];
         int minY = (mid_max == max_array) ? INT_MAX : nums2[mid_max];
 
